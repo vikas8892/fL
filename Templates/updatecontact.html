@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Update Contact</title>
+    </head>
+    <body>
+        <p>Specify whose number you want to change. Then enter person's correct name and number. If no change in either name/number leave it blank</p>
+        <form action="/doupdate" method="post">
+            <input type="text" placeholder="Enter name of person" name="PersonName"> <br>
+            <br>
+            <label for="1">Correct name of person</label>
+            <input type="text" id="1" name="CorrectName" value=" "> <br>
+            <br>
+            <label for="2">Correct number of person</label>
+            <input type="text" id="2" name="CorrectNumber" value=" "> <br>
+            <br>
+            <button type="submit">Update</button> 
+        </form>
+    </body>
+</html>

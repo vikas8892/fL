@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>All Contacts</title>
+    </head>
+    <body>
+        {% for i in datalist %} 
+        <pre>Name: {{i.0}}      Number: {{i.1}} </pre>
+        {% endfor %}
+    </body>
+</html>

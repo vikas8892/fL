@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home Page</title>
+    </head>
+    <body>
+        <h1>Contact Book</h1>
+        <p>Hello! Please select one of the below options</p>
+        <a href="/details" target="_main">Create a new contact</a> <br>
+        <a href="/all_contact">Show all saved contacts</a> <br>
+        <a href="/deletecontact" target="_main">Delete a contact</a> <br>
+        <a href="/updatecontact" target="_main">Update a contact</a>
+        <hr>
+        <p>Search for a name here.</p>
+        <form action="/dosearch" method="post">
+            <input type="text" placeholder="search name" name="srchnm">
+            <button type="submit">Search</button>
+        </form>
+    </body>
+</html>
